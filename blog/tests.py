@@ -8,7 +8,7 @@ class BlogTests(TestCase):
         self.assertEqual(res.status_code, 200)
 
     def test_home_page_template(self):
-        url = reverse('home')
+        url = reverse('home')tell 
         res = self.client.get(url)
         self.assertTemplateUsed(res, 'home.html')
         self.assertTemplateUsed(res, 'base.html')

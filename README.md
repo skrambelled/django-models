@@ -2,7 +2,32 @@
 
 So far we can create posts, but only when associated with a user
 
-## TODO LIST
+## TODO LIST Lab 28
+
+- [x] Create blog_project Django project
+- [x] Create blog app
+- [x] Create Post model
+- [x] title field
+- [x] author field
+- [x] body field
+- [x] Register model with admin
+- [x] Create BlogListView that extends appropriate generic view
+- [x] associated url path is an empty string
+- [x] Create BlogDetailView that extends appropriate generic view
+- [x] associated url path is post/<int:pk>/
+- [x] Create BlogCreateView that extends appropriate generic view
+- [x] associated url path is post/new/
+- [x] Create BlogUpdateView that extends appropriate generic view
+- [x] associated url path is post/<int:pk>/edit/
+- [x] Create BlogDeleteView that extends appropriate generic view
+- [x] associated url path is post/<int:pk>/delete/
+- [x] Add urls to support all views, with appropriate names
+- [x] Add templates to support all views
+- [x] Add navigation links in appropriate locations to access all pages
+- [x] Make all necessary changes to project level files for project to run
+- [x] In other words, make it work
+
+## TODO LIST Lab 27
 
 - [x] create blog_project project
 - [x] create blog app
